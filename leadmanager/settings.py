@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'leads',
-    'django_rest_framework'
+    'rest_framework'
 ]
 
 MIDDLEWARE = [
@@ -81,7 +81,7 @@ DATABASES = {
         'NAME': 'leadManager',
         'USER': 'postgres',
         'PASSWORD': 'superuser',
-        'HOST': 'localhost'
+        'HOST': 'localhost',
     }
 }
 
